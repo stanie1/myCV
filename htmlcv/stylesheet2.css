@@ -1,0 +1,126 @@
+
+body{
+	
+	min-height: 100vh;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.navLinks {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%; 	
+}
+	
+li a{
+	display: block;
+	color: #000000;
+	text-align:  right;
+	padding: 10px 25px;
+	float: left;
+	text-decoration:none;
+	font-weight: bold;
+	font-size: 140%;
+	border-radius: 20px;
+
+}
+li a:hover
+{
+	background-color: black;
+	color: #7FFFD4;
+}
+
+
+
+
+
+
+
+
+.contactInfo{
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20px;
+	
+
+}
+.card{
+	background-color: black;
+	padding: 0 20px;
+	margin: 0 10px;
+	width: 300px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.car_icon{
+	font-size: 47px;
+	background-color: #00BFFF;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 25px;
+	transition: 0.3s linear;
+
+}
+.card:hover .car_icon{
+	background-color: #00BFFF;
+	color: #00BFFF;
+	transform: scale(1.6);
+}
+.card p{
+	margin-top: 20px;
+	font-weight: 150px;
+	letter-spacing: 3px;
+	max-height: 0;
+	opacity: 0;
+	transition: 0.3 linear;
+
+}
+.card:hover p{
+	max-height: 40px;
+	opacity: 1;
+	font-weight: 100px;
+
+}
+p{
+	font-weight: 200px;
+	color: #FFFFFF;
+	font-family: arial black;
+}
+
+@media screen and (max-width: 800px){
+	.contact-info{
+		flex-direction: column;
+	}
+	.car{
+		width: 100%;
+		max-width: 300px;
+		margin: 10px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
