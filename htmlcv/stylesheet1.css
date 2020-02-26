@@ -1,0 +1,131 @@
+body{
+	background-color: #00BFFF;
+	font-family: tahoma;
+}
+.navLinks {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%; 
+}
+	
+li a{
+	display: block;
+	color: #000000;
+	text-align:  right;
+	padding: 10px 25px;
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 140%;
+	border-radius: 20px;
+
+}
+li a:hover
+{
+	background-color:black;
+	color: #7FFFD4;
+}
+.headercontainer {
+	background-color:#7FFFD4;
+}
+
+
+
+ h1:hover
+{
+	
+	color: #7FFFD4;
+}
+
+ h3:hover
+{
+	
+	color: #7FFFD4;
+}
+#aboutMe{
+	text-align: Center;
+	padding: 15px 15px;
+	margin-top: 100px;
+	margin: 40px;
+	margin-left: -9px;
+	background-color: #87CEFA;
+	color: #000000;
+	width: 100%;
+	font-weight: bold;
+	font-size: 130%;
+
+}
+
+
+.dropdownContent {
+
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  padding: 0px 0px;
+  z-index: 1;
+}
+.material-icons{
+	margin-top: -10px;
+	position: relative;
+}
+
+
+
+.dropdown {
+  position: absolute;
+  margin:0px 0px 0px 580px;
+  display: block;
+  text-align: center;
+  margin-top: -60px;
+
+  
+
+
+}
+.dropdown:hover .dropdownContent
+{
+	display: inline-block;
+  position: relative;
+  text-align: center;
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+
+}
+.dropdown:hover  .material-icons
+{
+	display: none;
+  
+
+}
+img {
+	margin-top: -30px;
+	border-radius: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
