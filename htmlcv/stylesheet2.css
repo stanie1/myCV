@@ -37,12 +37,6 @@ li a:hover
 }
 
 
-
-
-
-
-
-
 .contactInfo{
 	display: flex;
 	width: 100%;
@@ -102,16 +96,6 @@ p{
 	font-family: arial black;
 }
 
-@media screen and (max-width: 800px){
-	.contact-info{
-		flex-direction: column;
-	}
-	.car{
-		width: 100%;
-		max-width: 300px;
-		margin: 10px 0;
-	}
-}
 
 
 

@@ -11,8 +11,6 @@ body{
 	right: 0;
 	left: 0;
 	width: 100%; 
-	
-	
 }
 	
 li a{
@@ -29,7 +27,13 @@ li a{
 }
 li a:hover
 {
-	background-color: black;
+	background-color:black;
+	color: #7FFFD4;
+}
+
+ a li:hover
+{
+	
 	color: #7FFFD4;
 }
 .headercontainer {
@@ -60,7 +64,7 @@ li a:hover
     font-size: 170%;
    
 }
-
+ 
 
 
 

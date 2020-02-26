@@ -1,5 +1,6 @@
 body{
 	background-color: #00BFFF;
+	font-family: tahoma;
 }
 .navLinks {
 	list-style-type: none;
@@ -11,12 +12,7 @@ body{
 	right: 0;
 	left: 0;
 	width: 100%; 
-	
-	
-	
 }
-
-
 	
 li a{
 	display: block;
@@ -29,13 +25,17 @@ li a{
 	font-size: 140%;
 	border-radius: 20px;
 
-
 }
 li a:hover
 {
-	background-color: black;
+	background-color:black;
 	color: #7FFFD4;
 }
+.headercontainer {
+	background-color:#7FFFD4;
+}
+
+
 
  h1:hover
 {
